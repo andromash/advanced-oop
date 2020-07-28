@@ -9,24 +9,9 @@ public enum Color {
     YELLOW,
     PURPLE;
 
-    public static Color randomColor(){
-        int random = (int)(Math.random() * 7);
-        switch (random) {
-            case 0:
-                return GREEN;
-            case 1:
-                return RED;
-            case 2:
-                return BLUE;
-            case 3:
-                return BLACK;
-            case 4:
-                return WHITE;
-            case 5:
-                return YELLOW;
-            case 6:
-                return PURPLE;
-        }
-        return null;
+    public static Color randomColor() {
+        int random = (int) (Math.random() * 7);
+        return values()[random];
+
     }
 }
