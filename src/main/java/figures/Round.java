@@ -11,7 +11,7 @@ public class Round extends Shape {
     }
 
     public String draw() {
-        return "Shape: " + getNAME() + ", area: " + getArea() + ", radius: " + getRadius() + " inch, color: " + getColor();
+        return "Shape: " + getNAME() + ", area: " + getArea() + ", radius: " + getRadius()%.2d + " inch, color: " + getColor();
     }
 
     public double getArea() {

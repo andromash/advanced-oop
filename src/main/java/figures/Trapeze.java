@@ -12,7 +12,7 @@ public class Trapeze extends Shape {
     }
 
     public String draw() {
-        return "Shape: " + getNAME() + ", area: " + getArea() + ", middle line: " + getMiddleLine() + " inch, height" + getHeight() + " inch, color: " + getColor();
+        return "Shape: " + getNAME() + ", area: " + getArea() + ", middle line: " + getMiddleLine() + " inch, height " + getHeight() + " inch, color: " + getColor();
     }
 
     public double getArea() {
