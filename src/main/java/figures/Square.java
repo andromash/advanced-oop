@@ -2,10 +2,10 @@ package figures;
 
 public class Square extends Shape {
     private final String NAME = "Square";
-    private float side;
+    private double side;
     private Color color;
 
-    public Square(float side, Color color) {
+    public Square(double side, Color color) {
         this.side = side;
         this.color = color;
     }
@@ -14,7 +14,7 @@ public class Square extends Shape {
         return NAME;
     }
 
-    public float getSide() {
+    public double getSide() {
         return side;
     }
 

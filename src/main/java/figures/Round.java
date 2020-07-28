@@ -2,10 +2,10 @@ package figures;
 
 public class Round extends Shape {
     private final String NAME = "Round";
-    private float radius;
+    private double radius;
     private Color color;
 
-    public Round(float radius, Color color) {
+    public Round(double radius, Color color) {
         this.radius = radius;
         this.color = color;
     }
@@ -22,7 +22,7 @@ public class Round extends Shape {
         return NAME;
     }
 
-    public float getRadius() {
+    public double getRadius() {
         return radius;
     }
 

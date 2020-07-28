@@ -2,10 +2,11 @@ package figures;
 
 public class Triangle extends Shape {
     private final String NAME = "Triangle";
-    private float side1, side2;
+    private double side1;
+    private double side2;
     private Color color;
 
-    public Triangle(float side1, float side2, Color color) {
+    public Triangle(double side1, double side2, Color color) {
         this.side1 = side1;
         this.side2 = side2;
         this.color = color;
@@ -15,11 +16,11 @@ public class Triangle extends Shape {
         return NAME;
     }
 
-    public float getSide1() {
+    public double getSide1() {
         return side1;
     }
 
-    public float getSide2() {
+    public double getSide2() {
         return side2;
     }
 
