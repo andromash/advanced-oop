@@ -3,7 +3,6 @@ package figures;
 public class Square extends Shape {
     private final String NAME = "Square";
     private double side;
-    private Color color;
 
     public Square(double side, Color color) {
         this.side = side;

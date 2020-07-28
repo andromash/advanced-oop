@@ -3,7 +3,6 @@ package figures;
 public class Trapeze extends Shape {
     private final String NAME = "Trapeze";
     private double middleLine, height;
-    private Color color;
 
     public Trapeze(double middleLine, double height, Color color) {
         this.middleLine = middleLine;

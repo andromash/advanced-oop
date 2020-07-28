@@ -4,7 +4,6 @@ public class Triangle extends Shape {
     private final String NAME = "Triangle";
     private double side1;
     private double side2;
-    private Color color;
 
     public Triangle(double side1, double side2, Color color) {
         this.side1 = side1;

@@ -3,7 +3,6 @@ package figures;
 public class Round extends Shape {
     private final String NAME = "Round";
     private double radius;
-    private Color color;
 
     public Round(double radius, Color color) {
         this.radius = radius;
