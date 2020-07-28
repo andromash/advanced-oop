@@ -10,7 +10,7 @@ public enum Color {
     PURPLE;
 
     public static Color randomColor(){
-        int random = (int)(Math.random() * 6);
+        int random = (int)(Math.random() * 7);
         switch (random) {
             case 0:
                 return GREEN;

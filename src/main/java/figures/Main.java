@@ -6,7 +6,7 @@ public class Main {
         Shape[] shapes = new Shape[size];
 
         for(int i = 0; i < size; i++) {
-            int randomShape = (int)(Math.random()*3);
+            int randomShape = (int)(Math.random()*4);
             switch (randomShape) {
                 case 0:
                     shapes[i] = new Round( Math.random() * 10,Color.randomColor());
@@ -19,7 +19,7 @@ public class Main {
             }
         }
         for(Shape shape: shapes) {
-            shape.draw();
+            System.out.println(shape.draw());
         }
     }
 }
