@@ -9,7 +9,7 @@ public enum Color {
     YELLOW,
     PURPLE;
 
-    public static Color randomColor() {
+    public static Color getRandomColor() {
         int random = (int) (Math.random() * 7);
         return values()[random];
 
