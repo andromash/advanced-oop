@@ -1,6 +1,6 @@
 package figures;
 
-public class Round extends Shape {
+public class Circle extends Shape {
     private final String NAME = "Round";
     private double radius;
 
